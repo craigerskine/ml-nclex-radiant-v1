@@ -133,8 +133,8 @@ export const Onboarding: React.FC = () => {
                 a personalized study plan that adapts to your progress and keeps
                 you motivated.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-                <div className="p-4 bg-blue-50 rounded-lg">
+              <div className="border bg-slate-50 grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 rounded-xl divide-y divide-x-0 md:divide-y-0 md:divide-x shadow-lg">
+                <div className="p-4">
                   <Target className="w-8 h-8 text-blue-500 mx-auto mb-2" />
                   <h3 className="font-medium text-slate-800">
                     Adaptive Learning
@@ -143,7 +143,7 @@ export const Onboarding: React.FC = () => {
                     Personalized to your strengths and weaknesses
                   </p>
                 </div>
-                <div className="p-4 bg-green-50 rounded-lg">
+                <div className="p-4">
                   <CheckCircle2 className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <h3 className="font-medium text-slate-800">
                     Progress Tracking
@@ -152,7 +152,7 @@ export const Onboarding: React.FC = () => {
                     Real-time insights into your readiness
                   </p>
                 </div>
-                <div className="p-4 bg-purple-50 rounded-lg">
+                <div className="p-4">
                   <Clock className="w-8 h-8 text-purple-600 mx-auto mb-2" />
                   <h3 className="font-medium text-slate-800">
                     Flexible Schedule
