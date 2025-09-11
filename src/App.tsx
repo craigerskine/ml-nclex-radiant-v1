@@ -5,7 +5,7 @@ import { Dashboard } from './components/Dashboard';
 import { StudySession } from './components/StudySession';
 import { Progress } from './components/Progress';
 import { StudyPlanner } from './components/StudyPlanner';
-import { Onboarding } from './components/Onboarding.1';
+import { Onboarding } from './components/Onboarding';
 
 function App() {
   const { user, currentPage, isAuthenticated } = useStore();
