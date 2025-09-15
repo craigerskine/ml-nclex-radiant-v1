@@ -1,0 +1,184 @@
+/*
+  Prose v1.5 - tokens
+*/
+
+:root {
+  /* black */
+  --prs-c-black: #000000;
+
+  /* white */
+  --prs-c-white: #FFFFFF;
+
+  /* primary */
+  --prs-c-primary-50: #F6F0FC;
+  --prs-c-primary-100: #EADFF7;
+  --prs-c-primary-200: #CAB2ED;
+  --prs-c-primary-300: #A387E0;
+  --prs-c-primary-400: #573DCC;
+  --prs-c-primary-500: #0600B4;
+  --prs-c-primary: var(--prs-c-primary-500);
+  --prs-c-primary-600: #0500A3;
+  --prs-c-primary-700: #050087;
+  --prs-c-primary-800: #04006E;
+  --prs-c-primary-900: #010052;
+  --prs-c-primary-950: #010036;
+
+  /* secondary */
+  --prs-c-secondary-50: #FFF5FC;
+  --prs-c-secondary-100: #FFEBF9;
+  --prs-c-secondary-200: #FFC9EC;
+  --prs-c-secondary-300: #FFA8DC;
+  --prs-c-secondary-400: #FF69B6;
+  --prs-c-secondary-500: #FF2986;
+  --prs-c-secondary: var(--prs-c-secondary-500);
+  --prs-c-secondary-600: #E62072;
+  --prs-c-secondary-700: #BF1757;
+  --prs-c-secondary-800: #990F3F;
+  --prs-c-secondary-900: #73082A;
+  --prs-c-secondary-950: #4A0418;
+
+  /* accent */
+  --prs-c-accent-50: #FAEDF9;
+  --prs-c-accent-100: #F5DCF2;
+  --prs-c-accent-200: #E8AEE0;
+  --prs-c-accent-300: #DB84D0;
+  --prs-c-accent-400: #BF3BA9;
+  --prs-c-accent-500: #A30283;
+  --prs-c-accent: var(--prs-c-accent-500);
+  --prs-c-accent-600: #940172;
+  --prs-c-accent-700: #7A0156;
+  --prs-c-accent-800: #61013E;
+  --prs-c-accent-900: #4A002B;
+  --prs-c-accent-950: #300019;
+
+  /* info */
+  --prs-c-info-50: #F9FCFF;
+  --prs-c-info-100: #E4F3FF;
+  --prs-c-info-200: #C6E7FF;
+  --prs-c-info-300: #A1D9FF;
+  --prs-c-info-400: #72CBFF;
+  --prs-c-info-500: #00BCFF;
+  --prs-c-info: var(--prs-c-info-500);
+  --prs-c-info-600: #00A8E4;
+  --prs-c-info-700: #0092C6;
+  --prs-c-info-800: #0077A1;
+  --prs-c-info-900: #005472;
+  --prs-c-info-950: #002A39;
+
+  /* warning */
+  --prs-c-warning-50: #FEFFF9;
+  --prs-c-warning-100: #F9FFE4;
+  --prs-c-warning-200: #F3FFC6;
+  --prs-c-warning-300: #EDFFA1;
+  --prs-c-warning-400: #E7FF72;
+  --prs-c-warning-500: #E1FF00;
+  --prs-c-warning: var(--prs-c-warning-500);
+  --prs-c-warning-600: #C9E400;
+  --prs-c-warning-700: #AEC600;
+  --prs-c-warning-800: #8EA100;
+  --prs-c-warning-900: #657200;
+  --prs-c-warning-950: #323900;
+
+  /* success */
+  --prs-c-success-50: #F9FEFB;
+  --prs-c-success-100: #E4FCF0;
+  --prs-c-success-200: #C6F9E0;
+  --prs-c-success-300: #A1F6CF;
+  --prs-c-success-400: #72F3BD;
+  --prs-c-success-500: #00F0A8;
+  --prs-c-success: var(--prs-c-success-500);
+  --prs-c-success-600: #00D796;
+  --prs-c-success-700: #00BA82;
+  --prs-c-success-800: #00986A;
+  --prs-c-success-900: #006B4B;
+  --prs-c-success-950: #003626;
+
+  /* danger */
+  --prs-c-danger-50: #FEF9F9;
+  --prs-c-danger-100: #F9E5E8;
+  --prs-c-danger-200: #F3C7CE;
+  --prs-c-danger-300: #EDA3B1;
+  --prs-c-danger-400: #E7768D;
+  --prs-c-danger-500: #E0205D;
+  --prs-c-danger: var(--prs-c-danger-500);
+  --prs-c-danger-600: #C81D53;
+  --prs-c-danger-700: #AE1948;
+  --prs-c-danger-800: #8E143B;
+  --prs-c-danger-900: #640E2A;
+  --prs-c-danger-950: #320715;
+
+  /* gray */
+  --prs-c-gray-50: #FAFAFA;
+  --prs-c-gray-100: #F1F0F1;
+  --prs-c-gray-200: #E0DFE0;
+  --prs-c-gray-300: #CBCACC;
+  --prs-c-gray-400: #A5A4A7;
+  --prs-c-gray-500: #807F82;
+  --prs-c-gray: var(--prs-c-gray-500);
+  --prs-c-gray-600: #69686F;
+  --prs-c-gray-700: #494751;
+  --prs-c-gray-800: #31303B;
+  --prs-c-gray-900: #1D1B26;
+  --prs-c-gray-950: #0E0D16;
+
+  /* typography */
+  --prs-t-sans: 'Figtree', ui-sans-serif, system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --prs-t-serif: Literata, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --prs-t-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --prs-t-websafe: Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --prs-t-base: normal 16px/1.5;
+
+  /* typography - heading */
+  --prs-t-heading-xl: semibold 2rem/1.5;
+  --prs-t-heading-lg: semibold 1.5rem/1.33;
+  --prs-t-heading-md: semibold 1.125rem/1.33;
+  --prs-t-heading-sm: semibold 1rem/1.25;
+
+  /* typography - content */
+  --prs-t-content: normal 1.0625rem/1.59;
+  --prs-t-content-footnote: normal 0.8125rem/1.54;
+
+  /* typography - ui */
+  --prs-t-ui-lg: normal 1.125rem/1.33;
+  --prs-t-ui-md: normal 1rem/1.5;
+  --prs-t-ui-sm: normal 0.875rem/1.375rem;
+  --prs-t-ui-subtext: normal 0.8125rem/1.38;
+
+  /* typography - button */
+  --prs-t-button-lg: normal 1.125rem/1.11;
+  --prs-t-button-md: normal 0.9375rem/1.33;
+  --prs-t-button-sm: normal 0.75rem/1.67;
+
+  /* border */
+  --prs-border-btn: 1px;
+
+  /* input */
+  --prs-input-size: 0.25rem;
+
+  /* cal */
+  --prs-cal-width: 15.875rem;
+  --prs-cal-radius: 0.25rem;
+  --prs-cal-day-radius: 0.3125rem;
+  --prs-cal-day-selected: var(--prs-c-primary);
+
+  /* dialog */
+  --prs-dialog-backdrop: 0 0 0 / 0.5;
+
+  /* radius */
+  --prs-radius-badge: 1.9rem;
+  --prs-radius-box: 0.75rem;
+  --prs-radius-btn: 0.1875rem;
+  --prs-radius-input: 0;
+
+  /* shadow */
+  --prs-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --prs-shadow-md: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --prs-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --prs-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --prs-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 15px 20px -5px rgba(0, 0, 0, 0.1);
+
+  /* transition */
+  --prs-transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, outline-color, box-shadow, transform, filter, backdrop-filter;
+  --prs-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+  --prs-transition-duration: 150ms;
+}
